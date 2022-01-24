@@ -9,7 +9,8 @@ app=Flask(__name__)
 def index():
     
     
-    text = open('xd.txt').read()
+    text = "Siema tutaj Kasia, co tam u was? "
+    
     
     return render_template("index.html", text=text)
     
