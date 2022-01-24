@@ -8,9 +8,7 @@ app=Flask(__name__)
 @app.route('/')
 def index():
     
-    
-    text = "Siema tutaj Kasia, co tam u was? "
-    
+    text = open("spiderman_xd.py").read()
     
     return render_template("index.html", text=text)
     
